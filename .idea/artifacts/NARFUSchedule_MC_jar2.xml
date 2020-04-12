@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="NARFUSchedule_MC:jar2">
+    <output-path>$PROJECT_DIR$/out/artifacts/NARFUSchedule_MC_jar2</output-path>
+    <root id="archive" name="NARFUSchedule_MC.jar">
+      <element id="module-output" name="NARFUSchedule_MC" />
+    </root>
+  </artifact>
+</component>

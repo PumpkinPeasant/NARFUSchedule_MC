@@ -1,0 +1,5 @@
+name: NARFUSchedule_MC
+main: rottenturtle.schedule.main
+version: 0.0.1
+description: Plugin for viewing Narfu lesson's Schedule in Minecraft
+api-version: 1.13

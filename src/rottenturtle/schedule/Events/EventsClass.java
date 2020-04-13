@@ -48,6 +48,27 @@ public class EventsClass implements Listener {
         Inventory open = event.getClickedInventory();
         ItemStack item = event.getCurrentItem();
         if(event.getView().getTitle().equals(ChatColor.DARK_BLUE + "Выберите курс")){
+            event.setCancelled(true);
+            SubGroupSelect SubgroupSelector = new SubGroupSelect();
+            switch (item.getItemMeta().getDisplayName()) {
+                case  ("1 Курс"):
+                    SubgroupSelector.MainSubjectSelect(player, 1);
+                    break;
+                case ("2 Курс"):
+                    SubgroupSelector.MainSubjectSelect(player, 2);
+                    break;
+                case ("3 Курс"):
+                    SubgroupSelector.MainSubjectSelect(player, 3);
+                    break;
+                case ("4 Курс"):
+                    SubgroupSelector.MainSubjectSelect(player, 4);
+                    break;
+                case ("5 Курс"):
+                    SubgroupSelector.MainSubjectSelect(player, 5);
+                    break;
+                default:
+                    return;
+            }
 
         }
     }
